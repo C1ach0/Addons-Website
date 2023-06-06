@@ -22,7 +22,7 @@ npm i addons-website --save
 
 _Personally I often use this for burgers or sidebar, not to have to create lots of methods in vuejs_
 ```ts
-import { Toggle } from "@c1ach0/addons-website";
+import { Toggle } from "addons-website";
 
 let burger = new Toggle(false); // Init to false
 burger.switch() // false -> true
