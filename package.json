@@ -2,13 +2,17 @@
   "name": "@c1ach0/addons-website",
   "version": "0.0.1",
   "description": "Some functionality for ease and not to rewrite several times the same thing.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/c1ach0/addons-website.git"
+    "url": "git+https://github.com/c1ach0/Addons-Website.git"
   },
   "keywords": [
     "addons",
@@ -21,9 +25,9 @@
   "author": "c1ach0",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/c1ach0/addons-website/issues"
+    "url": "https://github.com/c1ach0/Addons-Website/issues"
   },
-  "homepage": "https://github.com/c1ach0/addons-website#readme",
+  "homepage": "https://github.com/c1ach0/Addons-Website#readme",
   "dependencies": {
     "typescript": "^5.1.3"
   }
