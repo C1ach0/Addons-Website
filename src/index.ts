@@ -1,10 +1,13 @@
+import { version } from "../package.json";
 import Toggle from "./class/Toggle.class";
 
 export {
-    /**
-     * Create new instance for boolean, easy to change between true/false
-     */
-    Toggle,
-
-
+   /**
+    * Get version of library
+    */
+   version,
+   /**
+    * Create new instance for boolean, easy to change between true/false
+    */
+   Toggle,
 }

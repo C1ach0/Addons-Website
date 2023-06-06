@@ -1,5 +1,5 @@
 {
-  "name": "@c1ach0/addons-website",
+  "name": "addons-website",
   "version": "0.0.1",
   "description": "Some functionality for ease and not to rewrite several times the same thing.",
   "main": "dist/index.js",
@@ -8,7 +8,8 @@
     "/dist"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "node ./test/index"
   },
   "repository": {
     "type": "git",
