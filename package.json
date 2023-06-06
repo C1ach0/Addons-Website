@@ -1,0 +1,30 @@
+{
+  "name": "@c1ach0/addons-website",
+  "version": "0.0.1",
+  "description": "Some functionality for ease and not to rewrite several times the same thing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c1ach0/addons-website.git"
+  },
+  "keywords": [
+    "addons",
+    "website",
+    "react",
+    "vue",
+    "typescript",
+    "easy"
+  ],
+  "author": "c1ach0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/c1ach0/addons-website/issues"
+  },
+  "homepage": "https://github.com/c1ach0/addons-website#readme",
+  "dependencies": {
+    "typescript": "^5.1.3"
+  }
+}
