@@ -1,12 +1,19 @@
 # Addons-Website
 > Some functionality for ease and not to rewrite several times the same thing.
 
-> Version: `0.0.1`
+> Version: `0.0.2`
 
 > Repo: https://github.com/c1ach0/Addons-Website
 
 ## _Summury
-- [Toggle](#toggle)
+- [Installation](#installation)
+- __Fonctionnality__
+    - [Toggle](#toggle)
+
+## Installation
+```sh
+npm i addons-website --save
+```
 
 ## Fonctionnality
 
