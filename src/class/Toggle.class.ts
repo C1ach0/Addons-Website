@@ -1,3 +1,5 @@
+/* The Toggle class is a TypeScript class that allows for switching between true/false and manually
+setting the state of a boolean. */
 export default class Toggle {
     private tog: boolean;
 

@@ -1,5 +1,6 @@
 import { version } from "../package.json";
 import Toggle from "./class/Toggle.class";
+import Regex from "./class/Regex.class";
 
 export {
    /**
@@ -10,4 +11,8 @@ export {
     * Create new instance for boolean, easy to change between true/false
     */
    Toggle,
+   /**
+    * Test valig name, password, email or with custom regex
+    */
+   Regex
 }
